@@ -1,0 +1,26 @@
+body  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b17fea;
+}
+.formulario {
+    width: 400px;
+    height: 400px;    
+    background-color: #cb8cda;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 91%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+    border:10px;
+    border-radius: 5px;
+}
